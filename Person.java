@@ -84,13 +84,13 @@ class SchoolTest {
         Teacher teacher = new Teacher("Sir Archie", 2345, "OOP");
         Staff staff = new Staff("Sir Joel", 3456, "Hardware");
  
-        System.out.println("  Student Information  ");
+        System.out.println("  Students Information  ");
         student.displayInfo();
  
-        System.out.println("\n  Teacher Information  ");
+        System.out.println("\n  Teachers Information  ");
         teacher.displayInfo();
  
-        System.out.println("\n  Staff Information  ");
+        System.out.println("\n  Staffs Information  ");
         staff.displayInfo();
     }
 }

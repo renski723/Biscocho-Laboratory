@@ -80,17 +80,17 @@ class Staff extends Person {
  
 class SchoolTest {
     public static void main(String[] args) {
-        Student student = new Student("Bakusa", 1001, "College");
-        Teacher teacher = new Teacher("Sir Archie", 2001, "Coding and Fundamentals");
-        Staff staff = new Staff("Sir Jayson", 3001, "Administration");
+        Student student = new Student("Renski", 1234, "College");
+        Teacher teacher = new Teacher("Sir Archie", 2345, "OOP");
+        Staff staff = new Staff("Sir Joel", 3456, "Hardware");
  
-        System.out.println("--- Student Info ---");
+        System.out.println("  Student Information  ");
         student.displayInfo();
  
-        System.out.println("\n--- Teacher Info ---");
+        System.out.println("\n  Teacher Information  ");
         teacher.displayInfo();
  
-        System.out.println("\n--- Staff Info ---");
+        System.out.println("\n  Staff Information  ");
         staff.displayInfo();
     }
 }
